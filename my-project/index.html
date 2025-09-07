@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المكتبة الإلكترونية</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-dark text-white p-3 text-center">
+    <h1>المكتبة الإلكترونية</h1>
+    <p>مشروع الطالب: [دانا]</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">الرئيسية</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="books.html">الكتب</a></li>
+          <li class="nav-item"><a class="nav-link" href="add-book.html">إضافة كتاب</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">عن المكتبة</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mt-5 text-center">
+    <h2>مرحباً بك في مكتبتنا الإلكترونية 📚</h2>
+    <p>يمكنك استعراض الكتب، البحث عنها، أو إضافة كتب جديدة.</p>
+    <div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/book1.jpg" class="d-block w-50 mx-auto" alt="الخيميائي">
+        </div>
+        <div class="carousel-item">
+          <img src="images/book2.jpg" class="d-block w-50 mx-auto" alt="رجال في الشمس">
+        </div>
+        <div class="carousel-item">
+          <img src="images/book3.jpg" class="d-block w-50 mx-auto" alt="مئة عام من العزلة">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center p-3 mt-5">
+    &copy; 2025 المكتبة الإلكترونية
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

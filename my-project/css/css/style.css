@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+}
+
+header, footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+#book-list .card {
+  transition: transform 0.2s;
+}
+
+#book-list .card:hover {
+  transform: scale(1.05);
+}
